@@ -29,7 +29,7 @@ function countApplesAndOranges(s, t, a, b, apples, oranges) {
     // 9. Jika ya, tambahkan 1 ke jumlah_jeruk
     if (posisi_jeruk >= s && posisi_jeruk <= t) jumlah_jeruk++;
   }
-  //
+  // 10. Cetak jumlah_apel dan jumlah_jeruk
   console.log(jumlah_apel);
   console.log(jumlah_jeruk);
 }
